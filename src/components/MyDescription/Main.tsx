@@ -1,5 +1,5 @@
 import Icon from '@mdi/react';
-import SubTitle from '../SubTitles'
+//import SubTitle from '../SubTitles'
 import catImage from '../../assets/cat.png';
 
 import {
