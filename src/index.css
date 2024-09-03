@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* archivo CSS o dentro de un bloque <style> */
+:root {
+    @apply dark:bg-black dark:text-white;
+  }
+  
