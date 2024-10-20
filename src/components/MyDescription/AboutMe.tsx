@@ -8,7 +8,7 @@ import {
 
 function AboutMe() {
   return (
-    <div className='bg-green-500 h-1/5 '>
+    <div className='bg-stone-900 rounded-xl h-1/5 '>
           <SubTitle subtitle="About me" iconName={mdiAccountBox} ></SubTitle>
     </div>
   )

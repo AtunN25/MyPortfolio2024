@@ -22,41 +22,39 @@ import Education from './components/MyDescription/Education'
 import Main from './components/MyDescription/Main'
 
 
-
-
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
-    <div className='p-6 gap-4 flex  h-screen'>
+    <div className='p-8 gap-3 flex h-screen'>
 
 
-      <div className='bg-blue-700 w-2/12 flex rounded-md gap-3 p-2 '>
-        <div className='flex bg-green-500 flex-col p-2 h-full w-1/2 space-y-2'>
+      <div className=' w-2/12 flex rounded-md gap-3 '>
+        <div className='flex flex-col  h-full w-1/2 space-y-3'>
           <Backend />
           <Fronted />
         </div>
-        <div className='flex bg-red-700 p-2 flex-col h-full w-1/2 space-y-2'>
+        <div className='flex   flex-col h-full w-1/2 space-y-3'>
           <OtherStack />
           <DataBase />
         </div>
       </div>
 
 
-      <div className='bg-emerald-600 w-4/12 rounded-md gap-3 p-2 space-y-3'>
+      <div className=' w-4/12 rounded-md gap-3  space-y-3'>
         <Main></Main>
         <Education></Education>
         <AboutMe></AboutMe>
       </div>
 
 
-      <div className='bg-red-400 w-6/12 p-2 rounded-md flex-col'>
-        <div className='bg-blue-500 flex h-2/5 p-2 gap-2'>
+      <div className=' w-6/12  rounded-md flex-col space-y-3 pb-6'>
+        <div className='flex h-2/5 gap-2 space-x-1'>
           <ClientExperience/>
           <Services/>
         </div>
         <Projects></Projects>
-        <div className='bg-green-500 h-1/5 flex p-2 gap-2'>
+        <div className='h-1/5 flex gap-2'>
           <ContactMe/>
           <Other/>
         </div>

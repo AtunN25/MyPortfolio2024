@@ -8,9 +8,10 @@ import {
 
 function Services() {
   return (
-    <div className='bg-gray-900 flex-col w-2/5 ' >
-            <SubTitle subtitle="Services" iconName={mdiFaceAgent} />
-          </div>
+    <div className='bg-stone-900 rounded-xl flex-col w-2/5 ' >
+      <SubTitle subtitle="Services" iconName={mdiFaceAgent} />
+
+    </div>
   )
 }
 

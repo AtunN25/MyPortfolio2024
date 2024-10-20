@@ -1,0 +1,9 @@
+@keyframes scroll {
+    0%{
+        transform: translate(x);
+    }
+    100%{
+        transform: translateX(calc());
+    }
+
+}

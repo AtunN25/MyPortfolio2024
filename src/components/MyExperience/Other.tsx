@@ -8,7 +8,7 @@ import {
 
 function Other() {
   return (
-    <div className='bg-gray-900 w-2/3 flex-col'>
+    <div className='bg-stone-900 rounded-xl w-2/3 flex-col'>
             <SubTitle subtitle="Other things" iconName={mdiAccountMultiple} />
           </div>
   )
