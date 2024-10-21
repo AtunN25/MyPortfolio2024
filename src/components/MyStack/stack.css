@@ -1,9 +1,25 @@
 @keyframes scroll {
-    0%{
-        transform: translate(x);
+    0% {
+      transform: translateY(0);
     }
-    100%{
-        transform: translateX(calc());
+    100% {
+      transform: translateY(-50%);
     }
-
-}
+  }
+  
+  .carousel {
+    height: calc(100% - 40px); 
+  }
+  
+  .carousel-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200%; 
+  }
+  
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+  
